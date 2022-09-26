@@ -1,21 +1,25 @@
-.ul {
-    background-color: #fadf44;
+.List {
+  background-color: #fadf44;
 }
 
-.ul p {
-    font-size: 15px;
-    font-weight: bold;
-    color: rgb(3, 100, 3);
-    font-size: 25px;
+.List p {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(3, 100, 3);
+  font-size: 25px;
+  padding-top: 10px;
 }
 
-.ul ul{
-    list-style:square;
-    list-style-position: inside;
-    text-align: left;
+.List ul {
+  list-style: square;
+  list-style-position: inside;
+  text-align: left;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
-li {
-    padding-bottom: 5px;
-    font-weight: 600;
+.List li {
+  padding-bottom: 5px;
+  font-weight: 600;
 }
